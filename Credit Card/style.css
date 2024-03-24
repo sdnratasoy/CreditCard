@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; /* hangi font ailesini kullanmak istiyorsanız belirtmenizi sağlar.*/
+}
+body {
+  min-height: 100vh;
+  display: flex; /*display:flex özelliğindeki esnek bir kutu içerisinde öğeler ana eksen doğrultusunda kutuya sığmak için boyutları büyür ya da küçülür.*/
+  align-items: center; /* bir dizi farklı değeri kabul eder. Bu değerler, öğelerin dikey hizalamasını belirler. */
+  justify-content: center; /*snek kutu içerisindeki öğeleri ana-eksen yönünde ortalayacaktır. */
+  background: #e3f2fd;
+}
+.container {
+  position: relative;
+  background-image: url("bg.png");
+  background-size: cover;
+  padding: 25px;
+  border-radius: 30px;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 0 7px 10px rgba(69, 97, 98, 0.867); /*Box-shadow, oluşturmuş olduğunuz elemanlara bir gölgelendirme efekti vermenizi sağlar.*/
+}
+header,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  width: 60px;
+  margin-right: 10px;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+header .chip {
+  width: 55px;
+}
+h6 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 450;
+}
+h5.number {
+  margin-top: 4px;
+  font-size: 18px;
+  letter-spacing: 1px; /*Harfler arası mesafeyi ayarlamak için kullanılır. Negatif ya da ondalık sayılar değer olarak belirlenebilir.*/
+}
+h5.name {
+  margin-top: 20px;
+}
+.container .card-details {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
