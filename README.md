@@ -1,2 +1,2 @@
 # CreditCard
-Html , CSS kullanarak kredi kartı tasarımı
+Credit card design using HTML and CSS
